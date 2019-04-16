@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		219AF3292265CE4D007075B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219AF3282265CE4D007075B6 /* AppDelegate.swift */; };
-		219AF32B2265CE4D007075B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219AF32A2265CE4D007075B6 /* ViewController.swift */; };
+		219AF32B2265CE4D007075B6 /* TodolistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219AF32A2265CE4D007075B6 /* TodolistViewController.swift */; };
 		219AF32E2265CE4D007075B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219AF32C2265CE4D007075B6 /* Main.storyboard */; };
 		219AF3302265CE4E007075B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219AF32F2265CE4E007075B6 /* Assets.xcassets */; };
 		219AF3332265CE4E007075B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219AF3312265CE4E007075B6 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		219AF3252265CE4D007075B6 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		219AF3282265CE4D007075B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		219AF32A2265CE4D007075B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219AF32A2265CE4D007075B6 /* TodolistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistViewController.swift; sourceTree = "<group>"; };
 		219AF32D2265CE4D007075B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		219AF32F2265CE4E007075B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219AF3322265CE4E007075B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				219AF3282265CE4D007075B6 /* AppDelegate.swift */,
-				219AF32A2265CE4D007075B6 /* ViewController.swift */,
+				219AF32A2265CE4D007075B6 /* TodolistViewController.swift */,
 				219AF32C2265CE4D007075B6 /* Main.storyboard */,
 				219AF32F2265CE4E007075B6 /* Assets.xcassets */,
 				219AF3312265CE4E007075B6 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219AF32B2265CE4D007075B6 /* ViewController.swift in Sources */,
+				219AF32B2265CE4D007075B6 /* TodolistViewController.swift in Sources */,
 				219AF3292265CE4D007075B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +283,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL4AJX2Y9C;
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerrajib.com.Todoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerrajib.com.Todoeyxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL4AJX2Y9C;
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerrajib.com.Todoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerrajib.com.Todoeyxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
